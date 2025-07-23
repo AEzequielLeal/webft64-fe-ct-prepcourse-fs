@@ -6,6 +6,7 @@ function esPar(num) {
   // 14 ---> true
   // 15 ---> false
   // Tu código:
+  return Number.isInteger(num / 2);
 }
 
 module.exports = esPar;

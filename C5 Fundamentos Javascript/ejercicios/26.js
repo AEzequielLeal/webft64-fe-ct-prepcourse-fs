@@ -4,6 +4,15 @@ function obtenerSaludo(nombre) {
   // Ejemplo: "Martin" ---> "Hola Martin!"
   // Retorna el nuevo string. 
   // Tu código:
+  var identidad = nombre;
+  var saludar = "Hola";
+  var espacio = " ";
+  var signo = "!";
+  var resultdo = saludar + espacio + identidad + signo;
+  return resultdo;
 }
+
+console.log(obtenerSaludo("Martin"));
+
 
 module.exports = obtenerSaludo;

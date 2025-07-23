@@ -5,6 +5,11 @@ function divide(x, y) {
   // 10, 5 ---> 2
   // 5, 5 ---> 1
   // Tu código:
+  var resultado = x / y;
+  return resultado;
 }
+
+console.log(divide(10, 5));
+console.log(divide(5, 5));
 
 module.exports = divide;
